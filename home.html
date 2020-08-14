@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<title>Friends Donut Malang</title>	
+	<style type="text/css">		
+	body{
+		font-family: sans-serif;
+		margin: 0;
+		padding: 0;	
+	}
+	.jumbotron{
+		font-size: 20px;
+		padding: 60px;
+		background-color: #00c8eb;
+		text-align: center;
+		color: white;
+	}
+	*{
+		box-sizing: border-box;
+	}
+	.clear{
+		clear: right;
+	}
+	.conbox{
+		box-sizing: content-box;
+	}
+	main{
+		padding: 20px;		
+		overflow: auto;		
+	}
+	#content{
+		float: left;
+		width: 74%;
+		margin: 0 auto;				
+	}
+	aside{
+		float: right;
+		width: 25%;
+		padding-left: 20px;		
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);				
+	}
+	@media screen and (max-width: 1000px){
+		#content,
+		aside{
+			width: 100%;
+			padding: 0;
+		}
+	}
+	section{
+		text-align: center;
+	}
+	.boxa{
+		height: 200px;
+	    width: 300px;
+	    /*background-color: lightgreen;*/
+	    border-radius: 10px 5px 10px 5px;
+	    padding: 20px;	    	    
+	    float: left;
+	}
+	
+	.card-style{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+
+	}
+	.feature-image{
+		width: 100%;			
+		object-fit: cover;
+		object-position: center;
+	}
+	.profil-img{
+		width: 100px;		
+		margin: 5px;		
+	}
+
+	nav{
+		background-color: #00a2c6;
+		padding: 5px;
+		position: sticky;
+		top: 0;
+	}
+	nav li{
+		display: inline;
+		list-style-type: none;
+		margin-right: 10px;
+	}
+	nav a{
+		text-decoration: none;
+	}
+	.box{
+		max-width: 300px;
+		height: 200px;
+		margin: 0 auto;
+		background-color: pink;
+	}
+	p.kecil{
+		margin: 5px 5px 5px 5px;
+	}
+	a:link{
+		color: white;
+	}
+	a:visited{
+		color: white;
+	}
+	a:hover{
+		color: green;
+	}
+	a:link{
+		color: red;
+	}
+	a:active{
+		color: orange;
+	}
+	footer{
+		padding: 20px;
+		text-align: center;
+		background-color: #00a2c6;
+		color: white;		
+		margin-top: 20px;
+	}
+</style>
+</head>
+<header class="jumbotron">
+	<h2>FRIENDS DONUT MALANG</h2>
+</header>
+<nav>
+	<ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="htmldikoding.html">Product</a></li>
+		<li><a href="kontak.html">Contact Us</a></li>
+	</ul>
+</nav>
+<main>
+	<div id="content">		
+	
+			<div class="conbox">
+				<article id="dobes" class="card-style">
+					<h2 style="color: red">Friends Donut Malang</h2>					
+					<p>Selamat datang di website friends donut malang</p>					
+				</article>
+			</div>
+		</div>				
+	</div>	
+<aside>
+	<article>
+		<header>
+			<h2>Owner Donut Malang</h2>
+			<figure>
+				<img src="asset/own.jpg" class="profil-img">
+			</figure>
+		</header>
+		<section>
+			<table>
+				<tr>
+					<th>Nama</th>
+					<td>Wisnu</td>
+				</tr>
+				<tr>
+					<th>Alamat</th>
+					<td>Jalan Widas</td>
+				</tr>
+			</table>
+		</section>
+	</article>		
+</aside>
+</main>
+<footer>
+	&copy;2020
+</footer>
+</html>
